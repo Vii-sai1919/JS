@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First JavaScript Page</title>
+        <link rel="stylesheet" href="style.css">
+      </head>      
+<body>
+  <div id="calculator">
+    <input type="number" id="num1">
+    <input type="number" id="num2">
+    <select id="operator">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+    </select>
+    <button onclick="calculate()">Calculate</button>
+    <p id="result"></p>
+  </div>
+  <div class="gangnam"></div>
+  <div id="guessing-game">
+    <p>Guess a number between 1 and 10:</p>
+    <input type="number" id="guess">
+    <button onclick="guessNumber()">Guess</button>
+    <p id="guess-result"></p>
+  </div>
+
+  <div id="to-do-list">
+    <input type="text" id="task-input">
+    <button onclick="addTask()">Add Task</button>
+    <ul id="task-list"></ul>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
